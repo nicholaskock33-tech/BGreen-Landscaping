@@ -40,9 +40,34 @@
             transform: translateY(-10px);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         }
+        /* Fixed button styles */
+        .fixed-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 50;
+            background-color: #166534;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .fixed-button:hover {
+            background-color: #22c55e;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
     </style>
 </head>
 <body class="font-lato bg-white">
+    <!-- Fixed "See Our Work" Button -->
+    <a href="https://www.facebook.com/bgreenlandscape/photos_by" target="_blank" class="fixed-button">
+        See Our Work
+    </a>
+
     <!-- Header / Hero Section -->
     <header class="hero-bg flex items-center justify-center text-white">
         <div class="text-center px-4 max-w-4xl">
